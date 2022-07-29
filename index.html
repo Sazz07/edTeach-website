@@ -26,7 +26,7 @@
                         <a class="nav-link me-3" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link me-3" href="#">Courses</a>
+                        <a class="nav-link me-3" href="#courses">Courses</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link me-3" href="#">Deals</a>
@@ -204,7 +204,78 @@
             <button type="button" class="btn btn-primary px-5 py-2 text-light">View All</button>    
           </div>
     </section>
-      <!-- courses section end  -->
+    <!-- explore section start  -->
+    <section class="institution-info container mt-5 custom-color" id="about">
+      <div class="row">
+          <div class=" col-12 col-sm-12 col-md-5 col-lg-5">
+            <img class="img-fluid" src="images/working.png" alt="">
+          </div>
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7 d-flex justify-content-center align-items-center mt-3">
+            <div>
+             <h1 class="ps-4">Explore The elearning <br> Institute</h1>
+             <p class="ps-4">A learning system based on formalised teaching but with the help of electronic resources is known as E-learning. While teaching can be based in or out of the classrooms, the use of computers and the Internet forms the major component of E-learning. E-learning can also be termed as a network enabled transfer of skills and knowledge, and the delivery of education is made to a large number of recipients at the same or different times. Earlier, it was not accepted wholeheartedly as it was assumed that this system lacked the human element required in learning.</p>
+             <div class="row g-3 ps-4">
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                  <h1 class="fw-bold">3.2k+</h1>
+                  <h5>Online Course</h5>
+              </div>
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                  <h1 class="fw-bold">500+</h1>
+                  <h5>Expert Member</h5>
+              </div>
+              <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                  <h1 class="fw-bold">1.5k+</h1>
+              <h5>Rating & Review</h5>
+              </div>             
+             </div>
+             <button type="button" class="btn btn-primary ms-4 mt-3 px-4 py-2 text-light">View All</button>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- explore section end  -->
+    <!-- registration started -->
+    <section class="reginstration-box container mt-5 flex-column flex-sm-column flex-md-column flex-lg-row d-flex d-sm-flex d-md-flex d-lg-flex justify-content-between align-items-center bg-primary p-5 rounded-3" id="register">
+      <div class="info text-white ms-5">
+          <h2>Ready to join?</h2>
+          <p>The Registration is open now. Come join with us. <br> Hit the registration button. We are waiting for you.</p>
+      </div>
+    <div>
+         <!-- Button trigger modal -->
+      <button type="button" class="btn btn-light text-primary px-5 py-2 " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Register
+        </button>
+
+        <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Registration Form</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>         
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Register</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    </section>
+    <!-- registration ended -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
